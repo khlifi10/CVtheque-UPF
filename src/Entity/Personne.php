@@ -57,6 +57,11 @@ class Personne
      */
     private $Ville;
 
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+  
+
     public function getId(): ?int
     {
         return $this->id;
@@ -157,4 +162,5 @@ class Personne
 
         return $this;
     }
+
 }
